@@ -230,3 +230,12 @@ header nav{
 .box:last-child {
     background-color: dodgerblue;   
 }
+
+.about-picture {
+    background-image: url('../img/jumbo-about.png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    padding: 0;
+}
