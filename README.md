@@ -38,7 +38,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic HTML are HTML elements that defines its content and describes its meaning to the user/developer and the web browsers. For example: headers, navs, and sections.
+    Semantic HTML are HTML elements that defines its content and describes its meaning to the user/developer and the web browsers.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
