@@ -146,37 +146,59 @@ footer nav a {
     text-decoration: none;
 }
 
+header{
+    display: flex;
+    align-items: flex-start;
+}
 
 .navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 20vh;
+    height: 5vh;
     width: 100%;
+    margin-top: 5%;
+    padding:0;
 }
-.links a{
-    padding: 0% 20%
 
-
-    
+.logo{
+    width: 20%;
+    border: 
 }
+
+.links {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 3%;
+}
+
 header a:link{
     color:black;
     text-decoration: none;
 
 }
+
 header a:visited{
     color: black;
     text-decoration: none;
 } 
+
+header nav{
+    height: 30vh;
+}
 
 .home-picture {
     background-image: url('../img/jumbo.jpg');
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    }
+    margin-top: 5%;
+    padding: 0;
+}
 
 .box:first-child {
     background-color: teal;   
