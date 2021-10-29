@@ -49,11 +49,13 @@ table {
 
 * {
     box-sizing: border-box;
+   
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -104,7 +106,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +144,155 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 5vh;
+    width: 100%;
+    margin-top: 5%;
+    padding:0;
+}
+
+.logo{
+    width: 20%;
+}
+
+.links {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 5%;
+    font-size: 14px;
+}
+
+header a:link{
+    color:black;
+    text-decoration: none;
+
+}
+
+header a:visited{
+    color: black;
+    text-decoration: none;
+} 
+
+header nav{
+    height: 30vh;
+}
+
+.home-picture {
+    background-image: url('../img/jumbo.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+}
+
+.box:first-child {
+    background-color: teal;   
+}
+.box:nth-child(2) {
+    background-color: gold;   
+}
+.box:nth-child(3) {
+    background-color: cadetblue;   
+}
+.box:nth-child(4) {
+    background-color: coral;    
+}
+.box:nth-child(5) {
+    background-color: crimson;   
+}
+.box:nth-child(6) {
+    background-color: forestgreen;   
+}
+.box:nth-child(7) {
+    background-color: darkorchid;   
+}
+.box:nth-child(8) {
+    background-color: hotpink;   
+}
+.box:nth-child(9) {
+    background-color: indigo;   
+}
+.box:last-child {
+    background-color: dodgerblue;   
+}
+
+.about-picture {
+    background-image: url('../img/jumbo-about.png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+}
+.top-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed black;
+    width: 100%;
+}
+
+.about-container{
+    width: 96%;
+    padding:.5%;
+    padding-bottom: 20px;
+    
+}
+
+
+.middle-about{
+    margin-top: 3.75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100%;  
+}
+
+.middle-container{
+    width: 46.25%;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.middle-container img{
+    width: 100%;
+    height: 100%
+}
+
+
+.middle-container button{
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 2.25% 5%;
+    font-size: 16px;
+    width: 35%;
+    margin: 5.25% 0%;
+}
+
+.bottom-container{
+    width: 100%;
+    padding: 0% 2.5% 5%;
+    margin-top: -3.5%;
+}
+.middle-about img{
+    padding-bottom: 4%;
 }
