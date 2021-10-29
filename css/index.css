@@ -241,14 +241,14 @@ header nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     border-bottom: 1px dashed black;
     
 }
 
 .about-container{
     width: 98%;
-    padding: 0 1%;
+    padding:1%;
     padding-bottom: 20px; 
 }
 
@@ -256,19 +256,21 @@ header nav{
 .middle-about{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
     width: 100%;
-    border: 2px solid black;
 }
 
 .middle-container{
-    width: 50%;
-    padding: 2%;
+    width: 49%;
+    padding:0 1%;
     border-bottom: 1px dashed black;
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start1;
+    margin-bottom: 60px;
 }
+
 
 .middle-container button{
     background-color: white;
@@ -276,10 +278,15 @@ header nav{
     font-family: 'Roboto', sans-serif;
     padding: 2% 6%;
     font-size: 16px;
+    width: 35%;
+    margin: 5% 1%;
 }
 
 .bottom-container{
-    width: 98%;
-    padding: 5% 2%;
- 
+    width: 100%;
+    padding: 0% 2% 5%;
+    margin-top: -3%;
+}
+div img{
+    padding-bottom: 4%;
 }
