@@ -42,7 +42,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-    One of the differences between display: block and display: inline is that 'display:block' has a line break after the element whereas the 'display:inline' has no line break after the element. Another difference is that 'display:line' cannot have a width and seight set while the 'display:block' will take the full width available.
+    One of the differences between display: block and display: inline is that 'display:block' has a line break after the element whereas the 'display:inline' has no line break after the element. Another difference is that 'display:line' cannot have a width and height set while the 'display:block' will take the full width available.
 
 3. What are the 4 areas of the box model?
 

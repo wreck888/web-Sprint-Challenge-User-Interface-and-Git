@@ -49,11 +49,13 @@ table {
 
 * {
     box-sizing: border-box;
+   
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -104,7 +106,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +144,67 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+.links a{
+    padding: 0% 20%
+
+
+    
+}
+header a:link{
+    color:black;
+    text-decoration: none;
+
+}
+header a:visited{
+    color: black;
+    text-decoration: none;
+} 
+
+.home-picture {
+    background-image: url('../img/jumbo.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    }
+
+.box:first-child {
+    background-color: teal;   
+}
+.box:nth-child(2) {
+    background-color: gold;   
+}
+.box:nth-child(3) {
+    background-color: cadetblue;   
+}
+.box:nth-child(4) {
+    background-color: coral;    
+}
+.box:nth-child(5) {
+    background-color: crimson;   
+}
+.box:nth-child(6) {
+    background-color: forestgreen;   
+}
+.box:nth-child(7) {
+    background-color: darkorchid;   
+}
+.box:nth-child(8) {
+    background-color: hotpink;   
+}
+.box:nth-child(9) {
+    background-color: indigo;   
+}
+.box:last-child {
+    background-color: dodgerblue;   
 }
